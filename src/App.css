@@ -2,5 +2,16 @@
   background-color: black;
   color: white;
   display: flex;
+  flex-direction: column; /* Organizes children vertically */
   min-height: 100vh;
+  justify-content: space-between; /* This pushes the content to the top, and the carousel to the bottom */
+  padding-bottom: 50px; /* Adds a 50px empty space at the bottom */
 }
+
+/* .icon-carousel {
+  width: 100vw;
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden;
+  z-index: 1;
+} */

@@ -1,13 +1,9 @@
 import React from "react";
 import "./Skills.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 function Skills() {
   return (
     <div className="skills-container">
-      {/* <h2>Skills</h2> */}
-
       <div className="skills-content">
         <div className="skill-category">
           <h3>Technologies</h3>
