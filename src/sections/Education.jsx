@@ -4,7 +4,7 @@ import "./Education.css";
 function Education() {
   return (
     <div className="education-container">
-      <h2>Information Systems Engineering</h2>
+      <h2>Information Systems Engineering (2015-2020)</h2>
       <h5>Universidad Tecnológica Nacional</h5>
       <ul>
         <li>

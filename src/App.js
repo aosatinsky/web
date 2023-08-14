@@ -8,6 +8,7 @@ import Education from "./sections/Education";
 import Experience from "./sections/Experience";
 import Skills from "./sections/Skills";
 import Languages from "./sections/Languages";
+import MoreInfo from "./sections/MoreInfo";
 
 function App() {
   const [activeSection, setActiveSection] = useState("ABOUT");
@@ -18,6 +19,7 @@ function App() {
     EXPERIENCE: <Experience />,
     SKILLS: <Skills />,
     LANGUAGES: <Languages />,
+    "MORE INFO": <MoreInfo />,
   };
 
   return (
