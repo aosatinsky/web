@@ -40,7 +40,7 @@ function MoreInfo() {
         do, don't hesitate to reach out!
       </p>
 
-      <a target="_blank" href="https://icons8.com">
+      <a target="_blank" rel="noreferrer" href="https://icons8.com">
         icons provided by Icons8
       </a>
     </div>
