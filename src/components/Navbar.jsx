@@ -1,25 +1,37 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 
-function Navbar({ options = [] }) {
+function Navbar({ options = [], onOptionSelect }) {
   const [selected, setSelected] = useState(0);
+  const [activeOption, setActiveOption] = useState(0);
+  const [isHovered, setIsHovered] = useState(false);
 
-  const rotationAngle = 90 / (options.length - 1);
+  const rotationAngle = 80 / (options.length - 1);
 
   return (
     <div className="navbar-container">
-      <div className="circle">
+      <div
+        className="circle"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         {options.map((option, index) => (
           <div
             key={index}
-            className={`option ${selected === index ? "selected" : ""}`}
+            className={`option ${activeOption === index ? "selected" : ""}`}
             style={{ top: `${(index / (options.length - 1)) * 100}%` }}
-            onClick={() => setSelected(index)}
+            onMouseEnter={() => {
+              setSelected(index);
+              setActiveOption(index);
+              if (onOptionSelect) {
+                onOptionSelect(option);
+              }
+            }}
           >
             {option}
           </div>
         ))}
-        {selected !== null && (
+        {isHovered && selected !== null && (
           <div
             className="pointer"
             style={{

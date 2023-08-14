@@ -21,19 +21,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: transparent; /* Explicitly set to transparent */
-  transition: font-weight 0.3s ease, color 0.3s ease;
+  background-color: transparent;
+  transition: all 0.3s ease; /* added "all" to transition any property changes */
   cursor: pointer;
   position: absolute;
-  right: -100px;
+  left: 80px; /* changed from "right: -100px" to "left: 0" to position on the left */
 }
 
 .option:hover {
-  color: rgba(0, 128, 255, 0.6); /* Gives a hover effect */
 }
 
 .option.selected {
   font-weight: bold; /* Make the selected option bold */
+  font-size: 1.5rem;
 }
 
 .pointer {
@@ -42,7 +42,11 @@
   background-color: whitesmoke;
   position: absolute;
   top: calc(50% - 42.5px);
-  left: 50px; /* Reduced from 15px to 10px to bring it closer */
+  left: -10px; /* Reduced from 15px to 10px to bring it closer */
   transform-origin: 50% 100%;
   transition: transform 0.3s ease;
+}
+
+.circle:hover .option {
+  left: 120px; /* distance from left to make space for the clock pointer */
 }
