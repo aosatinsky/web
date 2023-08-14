@@ -1,0 +1,21 @@
+.more-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-icon {
+  width: 70px;
+  height: 70px;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
