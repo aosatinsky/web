@@ -3,47 +3,37 @@ import "./Navbar.css";
 
 function Navbar({ options = [], onOptionSelect }) {
   const [selected, setSelected] = useState(0);
-  const [activeOption, setActiveOption] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const rotationAngle = 80 / (options.length - 1);
+  const handleOptionSelect = (index, option) => {
+    setSelected(index);
+    if (onOptionSelect) {
+      onOptionSelect(option);
+    }
+    setIsOpen(false); // Close the menu after an option is selected on mobile view
+  };
 
   return (
-    <div className="navbar-container">
-      <div
-        className="circle"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-      >
+    <div>
+      {isOpen && (
+        <div className="overlay show" onClick={() => setIsOpen(false)}></div>
+      )}
+
+      <div className={`navbar-container ${isOpen ? "open" : ""}`}>
         {options.map((option, index) => (
           <div
             key={index}
-            className={`option ${activeOption === index ? "selected" : ""}`}
-            style={{ top: `${(index / (options.length - 1)) * 100}%` }}
-            onMouseEnter={() => {
-              setSelected(index);
-              setActiveOption(index);
-              if (onOptionSelect) {
-                onOptionSelect(option);
-              }
-            }}
+            className={`option ${selected === index ? "selected" : ""}`}
+            onClick={() => handleOptionSelect(index, option)}
           >
             {option}
           </div>
         ))}
-        {isHovered && selected !== null && (
-          <div
-            className="pointer"
-            style={{
-              transform: `rotate(${
-                80 -
-                (rotationAngle * (options.length - 1)) / 2 +
-                rotationAngle * selected
-              }deg)`,
-            }}
-          />
-        )}
       </div>
+      <button
+        className="toggle-btn"
+        onClick={() => setIsOpen(!isOpen)}
+      ></button>
     </div>
   );
 }
