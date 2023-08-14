@@ -31,7 +31,7 @@ function MoreInfo() {
         </a>
       </div>
       <p>
-        <a href="mailto:osatinsky.tech@gmail.com">osatinsky.tech@gmail.com</a>
+        <a href="mailto:hola@osatinsky.tech">hola@osatinsky.tech</a>
       </p>
       {/* <p>Location: </p> */}
       {/* <p>Phone: </p> */}
