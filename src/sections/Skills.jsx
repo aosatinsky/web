@@ -30,18 +30,20 @@ function Skills() {
 
         <div className="personal-info">
           <p>
-            Over the years, I've found myself diving deep into the AWS
-            ecosystem, and boy, it's been a ride! From crafting intricate data
-            models in RDS using good ol' MySQL, to navigating the dynamic world
-            of DynamoDB, every project has been a learning curve. Oh, and let's
-            not forget the times I've played around with Redis using ElastiCache
-            to give applications that extra speed boost. On the deployment side,
-            tools like Lambda, SAM, and CloudFormation have been absolute
-            game-changers. And yep, I've had my fair share of adventures with
-            CI/CD, setting up pipelines, and experimenting with container
-            solutions. Every tool, every service, has its own story, and I've
-            relished every moment of piecing them together to create something
-            impactful. And finally yes, this was written by ChatGPT.
+            I have extensive experience with AWS, particularly in serverless
+            architectures. My expertise encompasses CloudFormation, SAM, RDS,
+            DynamoDB, and Redis via ElastiCache. I've also delved into ECS with
+            Fargate, SQS, and several other AWS services. In the crypto domain,
+            my knowledge is broad and deep, having developed with main API
+            providers such as Alchemy. Furthermore, I've navigated the
+            complexities of working in monorepo settings and developing with a
+            microservices approach. Beyond these, I've mastered backend
+            development with Node, particularly with the NestJS framework. While
+            I am well-versed in backend technologies, I'm on my journey towards
+            becoming a full-stack developer. I've been making strides in
+            frontend development, as evidenced by this webpage, which I've
+            crafted using React. Nonetheless, I continue to learn and deepen my
+            understanding of frontend practices.
           </p>
         </div>
       </div>

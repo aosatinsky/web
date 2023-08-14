@@ -17,6 +17,50 @@ function Education() {
           final project of my degree.
         </li>
       </ul>
+
+      <h3>Self-Taught Learning</h3>
+      <p>
+        Apart from my formal education, I'm also a self-taught learner who's
+        passionate about expanding my knowledge base. Here are some online
+        courses I've completed:
+      </p>
+      <ul>
+        <li>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/82NYB78RA367">
+            Introduction to Data Science in Python: University of Michigan
+            (Coursera)
+          </a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/CUSHG79Q2YDF">
+            Applied Plotting, Charting & Data Representation in Python:
+            University of Michigan (Coursera)
+          </a>
+        </li>
+        <li>
+          <a href="https://www.coursera.org/account/accomplishments/certificate/48JRLXRUYJYZ">
+            Applied Machine Learning in Python: University of Michigan
+            (Coursera)
+          </a>
+        </li>
+        <li>
+          <a
+            href="
+https://www.coursera.org/account/accomplishments/certificate/L6N3ABH8LPMM"
+          >
+            The Future of Payment Technologies: University of Michigan
+            (Coursera)
+          </a>
+        </li>
+        <li>
+          <a
+            href="
+https://www.coursera.org/account/accomplishments/certificate/UDDC4QXSXDD3"
+          >
+            AWS Fundamentals: Building Serverless Applications: AWS (Coursera)
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
