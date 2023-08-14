@@ -6,9 +6,11 @@ function About() {
     <div className="about-container">
       <div className="about-content">
         <img src="/images/profile.jpg" alt="About Me" className="about-image" />
+
         <div className="about-text">
           <h2>
-            Hi, nice to e-meet you. I'm Agustin Osatinsky and this is my resume
+            Hi, nice to e-meet you! I'm Agustin Osatinsky and this is my resume
+            :)
           </h2>
           <p>
             Highly motivated Systems Engineer graduate with honors, dedicated to
@@ -19,6 +21,18 @@ function About() {
             discussing ideas and having an impact on the product.
           </p>
         </div>
+      </div>
+      <div className="badge-container">
+        <img
+          src="/images/aws-certified-cloud-practitioner.png"
+          alt="Certification Badge 1"
+          className="badge"
+        />
+        <img
+          src="/images/aws-certified-dev.png"
+          alt="Certification Badge 2"
+          className="badge"
+        />
       </div>
     </div>
   );
