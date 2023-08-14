@@ -2,12 +2,42 @@
   flex: 1;
   padding: 40px;
   transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* center content on larger screens */
+  position: relative;
+  margin-left: 200px; /* This ensures no overlap with the navbar on desktop */
+  /* background-color: black; */
 }
 
 .section-content {
-  height: 100%;
+  width: 100%;
+  max-width: calc(100% - 240px);
+  /* height: auto; */
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-size: 24px;
+  /* background-color: black; */
+}
+
+/* Wider screen styles */
+@media only screen and (min-width: 769px) {
+  .section-content {
+    margin-left: 0;
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+  .section-container {
+    padding: 10px 20px; /* Reduced padding for mobile */
+    margin-left: 0; /* Reset the margin for mobile to ensure full-width */
+    align-items: flex-start; /* align content to start from top */
+  }
+
+  .section-content {
+    margin-left: 0;
+  }
 }
