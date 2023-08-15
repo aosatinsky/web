@@ -4,8 +4,7 @@ import "./MoreInfo.css";
 function MoreInfo() {
   return (
     <div className="more-info-container">
-      <h2>Contact Me!</h2>
-      {/* Links to LinkedIn and GitHub */}
+      <h2 style={{ color: "orange" }}>Contact Me!</h2>
       <div className="social-links">
         <a
           href="https://www.linkedin.com/in/aosatinsky/"

@@ -6,7 +6,7 @@ function Skills() {
     <div className="skills-container">
       <div className="skills-content">
         <div className="skill-category">
-          <h3>Technologies</h3>
+          <h3 style={{ color: "orange" }}>Technologies</h3>
           <ul>
             <li>Javascript / Typescript / NodeJS / React</li>
             <li>AWS</li>
@@ -20,7 +20,7 @@ function Skills() {
         </div>
 
         <div className="skill-category">
-          <h3>Languages</h3>
+          <h3 style={{ color: "orange" }}>Languages</h3>
           <ul>
             <li>Spanish - Native</li>
             <li>English - Fluent</li>

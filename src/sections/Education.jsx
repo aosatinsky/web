@@ -4,7 +4,9 @@ import "./Education.css";
 function Education() {
   return (
     <div className="education-container">
-      <h2>Information Systems Engineering (2015-2020)</h2>
+      <h2 style={{ color: "orange" }}>
+        Information Systems Engineering (2015-2020)
+      </h2>
       <h5>Universidad Tecnológica Nacional</h5>
       <ul>
         <li>
@@ -18,7 +20,7 @@ function Education() {
         </li>
       </ul>
 
-      <h3>Self-Taught Learning</h3>
+      <h3 style={{ color: "orange" }}>Self-Taught Learning</h3>
       <p>
         Apart from my formal education, I'm also a self-taught learner who's
         passionate about expanding my knowledge base. Here are some online

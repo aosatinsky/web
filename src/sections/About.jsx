@@ -16,12 +16,36 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-content">
-        <img src="/images/profile.jpg" alt="About Me" className="about-image" />
+        <div className="about-image-and-badge-container">
+          <img
+            src="/images/profile.jpg"
+            alt="About Me"
+            className="about-image"
+          />
+
+          <div className="badge-container">
+            <a href="https://www.credly.com/badges/f0a0fc25-b058-4166-8f43-8c7b41919c9a/public_url">
+              <img
+                src="/images/aws-certified-cloud-practitioner.png"
+                alt="Certification Badge 1"
+                className="badge"
+              />
+            </a>
+            <a href="https://www.credly.com/badges/bc329f0c-5a87-4dac-8286-03110c8616f8/public_url">
+              <img
+                src="/images/aws-certified-dev.png"
+                alt="Certification Badge 2"
+                className="badge"
+              />
+            </a>
+          </div>
+        </div>
 
         <div className="about-text">
           <h2>
-            Hi, nice to e-meet you! I'm Agustin Osatinsky and this is my resume
-            :)
+            Hey, nice to e-meet you! I'm{" "}
+            <span style={{ color: "orange" }}>Agustín Osatinsky</span> and this
+            is my resume :)
           </h2>
           <p>
             Highly motivated Systems Engineer graduate with honors, dedicated to
@@ -33,22 +57,7 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="badge-container">
-        <a href="https://www.credly.com/badges/f0a0fc25-b058-4166-8f43-8c7b41919c9a/public_url">
-          <img
-            src="/images/aws-certified-cloud-practitioner.png"
-            alt="Certification Badge 1"
-            className="badge"
-          />
-        </a>
-        <a href="https://www.credly.com/badges/bc329f0c-5a87-4dac-8286-03110c8616f8/public_url">
-          <img
-            src="/images/aws-certified-dev.png"
-            alt="Certification Badge 2"
-            className="badge"
-          />
-        </a>
-      </div>
+
       <IconsCarousel imageSources={iconsImages} />
     </div>
   );

@@ -31,6 +31,7 @@ function Navbar({ options = [], onOptionSelect }) {
         ))}
       </div>
       <button
+        style={{}}
         className="toggle-btn"
         onClick={() => setIsOpen(!isOpen)}
       ></button>

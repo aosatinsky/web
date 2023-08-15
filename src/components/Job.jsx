@@ -3,7 +3,7 @@ import React from "react";
 function Job({ title, period, position, location, description, tasks }) {
   return (
     <div className="job">
-      <h3>
+      <h3 style={{ color: "orange" }}>
         {title} ({period})
       </h3>
       <p>

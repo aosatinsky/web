@@ -7,19 +7,16 @@
   align-items: center; /* center content on larger screens */
   position: relative;
   margin-left: 200px; /* This ensures no overlap with the navbar on desktop */
-  /* background-color: black; */
 }
 
 .section-content {
   width: 100%;
   max-width: calc(100% - 240px);
-  /* height: auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  /* background-color: black; */
 }
 
 /* Wider screen styles */
@@ -39,5 +36,7 @@
 
   .section-content {
     margin-left: 0;
+    max-width: 100%; /* Ensure content takes full width */
+    align-items: flex-start; /* If you want content alignment to start from the top */
   }
 }

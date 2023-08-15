@@ -8,7 +8,7 @@ function Experience() {
         title="Zengo"
         period="2021 - Present"
         position="Backend Software Engineer"
-        location="Tel Aviv, Israel"
+        location="Tel Aviv, Israel 🇮🇱"
         description="MPC-Powered crypto wallet"
         tasks={[
           "Rapidly acquired new competencies in blockchain and applied them to daily responsibilities, enhancing efficiency and output. Proficient in Web3, as well as popular crypto API providers like Alchemy, Tatum, WalletConnect, etherscan, Banxa, Moonpay, and cryptocompare.",
@@ -22,7 +22,7 @@ function Experience() {
         title="Southworks"
         period="2020"
         position="Software Engineer"
-        location="Tucuman, Argentina (Remote)"
+        location="Tucuman, Argentina (Remote) 🇦🇷 🏆"
         description="Software Factory"
         tasks={[
           "Collaborated with software development and testing colleagues to create robust solutions that fulfilled client requirements in terms of functionality, scalability, and performance for the well-known retail company 7-11.",

@@ -27,11 +27,13 @@
 
 .option:hover {
   font-size: larger;
+  color: #ffd580;
 }
 
 .option.selected {
   font-weight: bold;
   font-size: x-large;
+  color: orange;
 }
 
 .toggle-btn {
@@ -42,8 +44,8 @@
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: orange;
   border: none;
   cursor: pointer;
   outline: none;
