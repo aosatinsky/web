@@ -49,7 +49,6 @@ function About() {
           />
         </a>
       </div>
-      <br></br>
       <IconsCarousel imageSources={iconsImages} />
     </div>
   );
