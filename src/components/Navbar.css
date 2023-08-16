@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   position: fixed;
-  left: 0;
+  left: 50px;
   top: 0;
   background-color: black;
   transition: transform 0.3s ease-out;
@@ -22,17 +22,17 @@
   transition: all 0.3s ease;
   cursor: pointer;
   margin: 5px 0;
-  font-size: medium;
+  font-size: large;
 }
 
 .option:hover {
-  font-size: larger;
+  font-size: x-large;
   color: #ffd580;
 }
 
 .option.selected {
   font-weight: bold;
-  font-size: x-large;
+  font-size: xx-large;
   color: orange;
 }
 
@@ -67,6 +67,11 @@
   .navbar-container {
     transform: translateX(-210px);
     z-index: 101;
+    left: 0;
+  }
+
+  .option.selected {
+    font-size: x-large;
   }
 
   .navbar-container.open {

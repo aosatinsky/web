@@ -54,6 +54,7 @@
   .about-image-and-badge-container {
     flex-direction: row;
     justify-content: center;
+    gap: 75px;
   }
 
   .about-content {
