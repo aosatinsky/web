@@ -10,7 +10,9 @@ function Navbar({ options = [], onOptionSelect }) {
     if (onOptionSelect) {
       onOptionSelect(option);
     }
-    setIsOpen(false); // Close the menu after an option is selected on mobile view
+    setIsOpen(false);
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
@@ -30,11 +32,11 @@ function Navbar({ options = [], onOptionSelect }) {
           </div>
         ))}
       </div>
-      <button
-        style={{}}
-        className="toggle-btn"
-        onClick={() => setIsOpen(!isOpen)}
-      ></button>
+      <button className="toggle-btn" onClick={() => setIsOpen(!isOpen)}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </button>
     </div>
   );
 }

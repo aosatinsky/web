@@ -37,11 +37,10 @@
 }
 
 .toggle-btn {
-  display: none; /* Initially hidden */
+  display: none;
   position: fixed;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  left: 10px;
+  top: 10px;
   width: 30px;
   height: 30px;
   background-color: transparent;
@@ -50,31 +49,24 @@
   cursor: pointer;
   outline: none;
   z-index: 200;
-  transition: transform 0.3s ease-out;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.toggle-btn .line {
+  width: 100%;
+  height: 3px;
+  background-color: orange;
 }
 
 .navbar-container.open + .toggle-btn {
-  display: none; /* Hide when navbar is open */
+  display: none;
 }
 
-.toggle-btn:after {
-  content: ">";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.5em;
-}
-
-.navbar-container.open + .toggle-btn:after {
-  content: ">";
-}
-
-/* Mobile styles */
 @media only screen and (max-width: 768px) {
   .navbar-container {
-    transform: translateX(-210px); /* Hide it completely on the left */
-    z-index: 101; /* Make sure navbar stays above the overlay */
+    transform: translateX(-210px);
+    z-index: 101;
   }
 
   .navbar-container.open {
@@ -82,17 +74,17 @@
   }
 
   .toggle-btn {
-    display: block; /* Display only on mobile */
+    display: flex;
   }
 
   .overlay {
     display: none;
     position: fixed;
     top: 0;
-    left: 200px; /* Start the overlay just after the navbar */
-    width: calc(100vw - 200px); /* Adjust width to occupy rest of the screen */
+    left: 200px;
+    width: calc(100vw - 200px);
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
   }
 
