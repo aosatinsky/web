@@ -1,16 +1,16 @@
 .skills-container {
-  padding: 20px 0; /* Provide padding around the skills section */
+  padding: 20px 0;
 }
 
 .skills-content {
   display: flex;
-  flex-wrap: wrap; /* Allow the content to wrap for responsiveness */
-  gap: 20px; /* Provide spacing between skill categories */
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skill-category {
   flex: 1;
-  min-width: 200px; /* Set a minimum width for categories */
+  min-width: 200px;
 }
 
 .skill-category h3 {
@@ -19,8 +19,8 @@
 }
 
 .skill-category ul {
-  list-style-type: none; /* Remove default bullet points */
-  padding-left: 0; /* Remove default padding */
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .skill-category li {

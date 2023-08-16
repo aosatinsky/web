@@ -7,6 +7,7 @@ function Experience() {
       <Job
         title="Zengo"
         url="https://zengo.com"
+        logo="/images/icons/zengo.jpeg"
         period="2021 - Present"
         position="Backend Software Engineer"
         location="Tel Aviv, Israel 🇮🇱"
@@ -22,9 +23,10 @@ function Experience() {
       <Job
         title="Southworks"
         url="https://www.southworks.com"
+        logo="/images/icons/southworks.png"
         period="2020"
         position="Software Engineer"
-        location="Tucuman, Argentina (Remote) 🇦🇷 🏆"
+        location="Tucumán, Argentina (Remote) 🇦🇷 🏆"
         description="Software Factory"
         tasks={[
           "Collaborated with software development and testing colleagues to create robust solutions that fulfilled client requirements in terms of functionality, scalability, and performance for the well-known retail company 7-11.",

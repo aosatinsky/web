@@ -3,7 +3,6 @@
   width: 100%;
   position: relative;
   margin-top: 30px;
-  /* Add a mask for the fade effect */
   mask-image: linear-gradient(
     to right,
     transparent 0%,
@@ -48,7 +47,6 @@
 
   .icon-carousel {
     overflow-x: hidden;
-    /* Adjust the mask for mobile view */
     mask-image: linear-gradient(
       to right,
       transparent 5%,

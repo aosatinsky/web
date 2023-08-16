@@ -5,7 +5,7 @@ function IconsCarousel({ imageSources }) {
   const sliderRef = useRef(null);
 
   useEffect(() => {
-    const speed = 2; // pixels per frame, adjust for desired speed
+    const speed = 2;
     let animationFrameId;
 
     const moveSlider = () => {
@@ -31,13 +31,12 @@ function IconsCarousel({ imageSources }) {
     };
 
     animationFrameId = requestAnimationFrame(moveSlider);
-    return () => cancelAnimationFrame(animationFrameId); // Cleanup animation frame on unmount
+    return () => cancelAnimationFrame(animationFrameId);
   }, [imageSources]);
 
   return (
     <div className="icon-carousel">
       <div className="carousel-slider" ref={sliderRef}>
-        {/* Render two sets of images for the infinite effect */}
         {[...imageSources, ...imageSources].map((src, index) => (
           <div key={index} className="carousel-slide">
             <img src={src} alt={`Carousel Slide ${index}`} />

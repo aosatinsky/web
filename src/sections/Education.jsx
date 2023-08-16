@@ -7,7 +7,9 @@ function Education() {
       <h2 style={{ color: "orange" }}>
         Information Systems Engineering (2015-2020)
       </h2>
-      <h5>Universidad Tecnológica Nacional</h5>
+      <a href="http://www.frt.utn.edu.ar/">
+        <h5>Universidad Tecnológica Nacional - Facultad Regional Tucumán</h5>
+      </a>
       <ul>
         <li>
           Completed a 5-year degree with honors, achieving the highest GPA (8.72

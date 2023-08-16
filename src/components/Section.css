@@ -4,9 +4,9 @@
   transition: opacity 0.3s ease;
   display: flex;
   justify-content: center;
-  align-items: center; /* center content on larger screens */
+  align-items: center;
   position: relative;
-  margin-left: 200px; /* This ensures no overlap with the navbar on desktop */
+  margin-left: 200px;
 }
 
 .section-content {
@@ -19,7 +19,6 @@
   font-size: 24px;
 }
 
-/* Wider screen styles */
 @media only screen and (min-width: 769px) {
   .section-content {
     margin-left: 0;
@@ -29,14 +28,14 @@
 /* Mobile styles */
 @media only screen and (max-width: 768px) {
   .section-container {
-    padding: 10px 20px; /* Reduced padding for mobile */
-    margin-left: 0; /* Reset the margin for mobile to ensure full-width */
-    align-items: flex-start; /* align content to start from top */
+    padding: 10px 20px;
+    margin-left: 0;
+    align-items: flex-start;
   }
 
   .section-content {
     margin-left: 0;
-    max-width: 100%; /* Ensure content takes full width */
-    align-items: flex-start; /* If you want content alignment to start from the top */
+    max-width: 100%;
+    align-items: flex-start;
   }
 }
