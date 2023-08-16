@@ -64,7 +64,7 @@
 
   .about-text {
     order: 1;
-    width: 80%;
+    /* width: 100%; */
     text-align: left;
     /* margin-top: 20px; */
     margin-bottom: 40px;

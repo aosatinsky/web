@@ -1,11 +1,13 @@
 import React from "react";
 
-function Job({ title, period, position, location, description, tasks }) {
+function Job({ title, period, position, location, description, tasks, url }) {
   return (
     <div className="job">
-      <h3 style={{ color: "orange" }}>
-        {title} ({period})
-      </h3>
+      <a href={url}>
+        <h3 style={{ color: "orange" }}>
+          {title} ({period})
+        </h3>
+      </a>
       <p>
         <strong>Position:</strong> {position}
       </p>

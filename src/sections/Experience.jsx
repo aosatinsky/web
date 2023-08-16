@@ -6,6 +6,7 @@ function Experience() {
     <div>
       <Job
         title="Zengo"
+        url="https://zengo.com"
         period="2021 - Present"
         position="Backend Software Engineer"
         location="Tel Aviv, Israel 🇮🇱"
@@ -20,6 +21,7 @@ function Experience() {
 
       <Job
         title="Southworks"
+        url="https://www.southworks.com"
         period="2020"
         position="Software Engineer"
         location="Tucuman, Argentina (Remote) 🇦🇷 🏆"
