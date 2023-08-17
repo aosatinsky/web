@@ -48,12 +48,12 @@ function About() {
             is my resume :)
           </h2>
           <p>
-            Highly motivated Systems Engineer graduate with honors, dedicated to
-            contributing to team achievements through diligent work, attention
-            to detail, and organizational abilities. Skilled in Node.JS
-            development and proficient in Cloud technologies. Possesses
-            excellent teamworking and communication skills, with a passion for
-            discussing ideas and having an impact on the product.
+            I am a highly motivated Systems Engineer graduate with honors,
+            dedicated to contributing to team achievements through diligent
+            work, attention to detail, and organizational abilities. I am
+            skilled in Node.JS development and proficient in Cloud technologies.
+            I possess excellent teamworking and communication skills, with a
+            passion for discussing ideas and having an impact on the product.
           </p>
         </div>
       </div>

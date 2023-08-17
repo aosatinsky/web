@@ -40,6 +40,11 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.badge:hover {
+  transform: scale(1.1);
 }
 
 .about-image-and-badge-container {

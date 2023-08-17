@@ -31,7 +31,7 @@ function MoreInfo() {
       </div>
       <p>
         <a style={{ color: "#ffd580" }} href="mailto:hola@osatinsky.tech">
-          hola@osatinsky.tech
+          hello@osatinsky.tech
         </a>
       </p>
       {/* <p>Location: </p> */}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Job.css";
 
 function Job({
   title,
@@ -12,7 +13,7 @@ function Job({
 }) {
   return (
     <div className="job">
-      <a href={url}>
+      <a className="job-link" href={url}>
         <div style={{ display: "flex", alignItems: "center" }}>
           {logo && (
             <img
