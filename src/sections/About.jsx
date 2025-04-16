@@ -18,7 +18,7 @@ function About() {
       <div className="about-content">
         <div className="about-image-and-badge-container">
           <img
-            src="/images/profile.jpg"
+            src="/images/profile.png"
             alt="About Me"
             className="about-image"
           />
@@ -43,17 +43,32 @@ function About() {
 
         <div className="about-text">
           <h2>
-            Hey, nice to e-meet you! I'm{" "}
-            <span style={{ color: "orange" }}>Agustín Osatinsky</span> and this
-            is my resume :)
+            Hello there! I'm{" "}
+            <span style={{ color: "orange" }}>Agustín Osatinsky</span>
           </h2>
           <p>
-            I am a highly motivated Systems Engineer graduate with honors,
-            dedicated to contributing to team achievements through diligent
-            work, attention to detail, and organizational abilities. I am
-            skilled in Node.JS development and proficient in Cloud technologies.
-            I possess excellent teamworking and communication skills, with a
-            passion for discussing ideas and having an impact on the product.
+            Welcome to my personal space on the web. As a Systems Engineer with
+            honors, I'm passionate about building innovative solutions using
+            Node.JS and cloud technologies. My professional journey has been
+            driven by a commitment to excellence, collaborative problem-solving,
+            and creating impactful digital experiences.
+          </p>
+          <p>
+            With a strong expertise in cryptocurrency and blockchain
+            technologies, I'm also increasingly involved in frontend and mobile
+            development. This diverse technical background allows me to approach
+            problems holistically and create comprehensive solutions.
+          </p>
+          <p>
+            Beyond coding, I'm passionate about finance, artificial
+            intelligence, travel, and photography. These interests not only
+            enrich my personal life but also bring a unique perspective to my
+            technical work.
+          </p>
+          <p>
+            When I'm not coding, I enjoy sharing insights and experiences on my
+            blog. Feel free to explore my work, skills, and connect with me to
+            discuss potential collaborations or just to say hi!
           </p>
         </div>
       </div>

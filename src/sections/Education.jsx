@@ -22,6 +22,20 @@ function Education() {
         </li>
       </ul>
 
+      <h3 style={{ color: "orange" }}>AWS Certifications</h3>
+      <ul>
+        <li>
+          <a href="https://www.credly.com/badges/f0a0fc25-b058-4166-8f43-8c7b41919c9a/public_url">
+            AWS Certified Cloud Practitioner
+          </a>
+        </li>
+        <li>
+          <a href="https://www.credly.com/badges/bc329f0c-5a87-4dac-8286-03110c8616f8/public_url">
+            AWS Certified Developer - Associate
+          </a>
+        </li>
+      </ul>
+
       <h3 style={{ color: "orange" }}>Self-Taught Learning</h3>
       <p>
         Apart from my formal education, I'm also a self-taught learner who's

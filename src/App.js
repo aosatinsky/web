@@ -20,14 +20,24 @@ function App() {
     "MORE INFO": <MoreInfo />,
   };
 
+  const handleNavSelection = (selectedOption) => {
+    if (selectedOption === "BLOG") {
+      window.open(
+        "https://blog.osatinsky.com",
+        "_blank",
+        "noopener,noreferrer"
+      );
+    } else {
+      setActiveSection(selectedOption);
+    }
+  };
+
+  // Create navigation options including the blog
+  const navOptions = [...Object.keys(sectionsContent), "BLOG"];
+
   return (
     <div className="App">
-      <Navbar
-        options={Object.keys(sectionsContent)}
-        onOptionSelect={(selectedOption) => {
-          setActiveSection(selectedOption);
-        }}
-      />
+      <Navbar options={navOptions} onOptionSelect={handleNavSelection} />
       <Section content={sectionsContent[activeSection]} />
     </div>
   );

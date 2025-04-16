@@ -1,1 +1,1 @@
-# Osatinsky.tech web
+# Osatinsky.com web

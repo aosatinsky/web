@@ -13,10 +13,15 @@ function Experience() {
         location="Tel Aviv, Israel 🇮🇱"
         description="MPC-Powered crypto wallet"
         tasks={[
-          "Rapidly acquired new competencies in blockchain and applied them to daily responsibilities, enhancing efficiency and output. Proficient in Web3, as well as popular crypto API providers like Alchemy, Tatum, WalletConnect, etherscan, Banxa, Moonpay, and cryptocompare.",
-          "Working with NodeJS, Typescript, AWS, SAM, CloudFormation, ElastiCache (Redis), CodePipeline, Beanstalk, SES, SNS, S3, DynamoDB, RDS, Lambda, CloudWatch, EC2, Fargate, Serverless framework, Bash, and more.",
-          "Developed numerous Infrastructure as Code (IaC) solutions, elevated test quality by incorporating automated testing and CI/CD.",
-          "Designed and built NestJS microservices to replace and enhance core functionalities of the monolithic system, covering everything from documentation to Infrastructure as Code.",
+          "Leading backend development for a cutting-edge crypto wallet, where I've mastered blockchain technologies and integrated them into our core systems. I've built expertise in Web3 ecosystems and implemented solutions using various crypto API providers including Alchemy, WalletConnect, Etherscan, Banxa, and Moonpay.",
+
+          "Architected and developed robust microservices using NestJS to modernize our platform, successfully transitioning critical functionalities from a monolithic system to a more scalable and maintainable architecture.",
+
+          "Established comprehensive Infrastructure as Code (IaC) practices, significantly improving deployment reliability and system stability while reducing manual configuration errors.",
+
+          "Built and maintained a sophisticated tech stack including NodeJS, TypeScript, and a wide range of AWS services (Lambda, DynamoDB, RDS, ElastiCache, CloudFormation, S3, EC2, ECS, Fargate, SES, SNS, CloudWatch, Beanstalk, CodePipeline) to support our rapidly growing user base and transaction volume.",
+
+          "Implemented automated testing frameworks and CI/CD pipelines that enhanced code quality and accelerated our release cycles, allowing for more frequent and reliable product updates.",
         ]}
       />
 

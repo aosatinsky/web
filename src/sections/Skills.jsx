@@ -9,6 +9,8 @@ function Skills() {
           <h3 style={{ color: "orange" }}>Technologies</h3>
           <ul>
             <li>Javascript / Typescript / NodeJS / React</li>
+            <li>Next.js / React Native</li>
+            <li>Frontend & Mobile Development</li>
             <li>AWS</li>
             <li>NestJS / Jest</li>
             <li>Web3</li>
@@ -39,11 +41,11 @@ function Skills() {
             complexities of working in monorepo settings and developing with a
             microservices approach. Beyond these, I've mastered backend
             development with Node, particularly with the NestJS framework. While
-            I am well-versed in backend technologies, I'm on my journey towards
-            becoming a full-stack developer. I've been making strides in
-            frontend development, as evidenced by this webpage, which I've
-            crafted using React. Nonetheless, I continue to learn and deepen my
-            understanding of frontend practices.
+            I am well-versed in backend technologies, I'm expanding my skills in
+            frontend and mobile development with React, Next.js, and React
+            Native. This personal website showcases my growing frontend
+            capabilities, and I continue to deepen my understanding of modern
+            UI/UX practices and cross-platform development.
           </p>
         </div>
       </div>
